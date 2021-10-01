@@ -24,6 +24,7 @@ public class ContactInfoServiceImpl implements ContactInfoService {
 		return contactDB.getContactInfo(cName);
 	}
 	
+	@Override
 	public boolean insertContact(ContactInfo cInsert) {
 		return contactDB.insertContact(cInsert);
 	}
